@@ -4,7 +4,7 @@
 int main() // main function of the program
 {
     char symbol1 = '!'; // this data type holds a single character
-    char symbol2 = '@'; // Its value can be set to '\0 to represent the null character
+    char symbol2 = '@'; // Its value can be set to '\0' to represent the null character
     char symbol3 = '#';
 
     char name1[] = "Papyrus"; // this data type holds an array of characters (string)
@@ -23,9 +23,9 @@ int main() // main function of the program
     double precise2 = 2.718281828459045;
     double precise3 = 1.618033988749895;
 
-    bool in_college = false; // this data type holds a true value (boolean)
-    bool employed = 1;       // booleans can also be represented as integers (0 for false, non-zero for true)
-    bool in_school = true;   // this data type holds a false value (boolean)
+    bool in_college = false; // this data type holds a false value (boolean)
+    bool employed = 1;       // booleans can also be represented as integers (0 for false, 1 for true)
+    bool in_school = true;   // this data type holds a true value (boolean)
 
     printf("symbols: \n");
     printf("%c\n", symbol1); // print the symbol and go to a new line
@@ -59,3 +59,4 @@ int main() // main function of the program
 
     return 0;
 }
+
